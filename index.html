@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculatrice</title>
+  </head>
+  <body>
+    <div class="main_wrapper">
+      <section id="ecran" class="ecran">0</section>
+      <section class="bouton">
+        <div class="bouton_ligne" id="ligne1">
+          <button data-key="(">(</button>
+          <button data-key=")">)</button>
+          <button data-key="sqrt(">&radic;</button>
+          <button data-key="sin(">sin</button>
+          <button data-key="cos(">cos</button>
+        </div>
+        <div class="bouton_ligne" id="ligne2">
+          <button data-key="7" id="bouton7">7</button>
+          <button data-key="8" id="bouton8">8</button>
+          <button data-key="9" id="bouton9">9</button>
+          <button data-key="10" id="boutonC">C</button>
+          <button data-key="11" id="boutonE">&loarr;</button>
+        </div>
+        <div class="bouton_ligne" id="ligne3">
+          <button data-key="4" id="bouton4">4</button>
+          <button data-key="5" id="bouton5">5</button>
+          <button data-key="6" id="bouton6">6</button>
+          <button data-key="*" class="operateur" id="boutonX">&times;</button>
+          <button data-key="/" id="bouton/" class="operateur">&divide;</button>
+        </div>
+        <div class="bouton_ligne" id="ligne4">
+          <button data-key="1" id="bouton1">1</button>
+          <button data-key="2" id="bouton2">2</button>
+          <button data-key="3" id="bouton3">3</button>
+          <button data-key="+" class="operateur" id="bouton+">&plus;</button>
+          <button data-key="-" class="operateur" id="bouton-">&minus;</button>
+        </div>
+        <div class="bouton_ligne" id="ligne5">
+          <button data-key="0" id="bouton0">0</button>
+          <button data-key="." id="bouton.">.</button>
+          <button data-key="&pi;" id="boutonPi">&pi;</button>
+          <button data-key="16" id="boutonEgale" class="operateur">
+            &equals;
+          </button>
+        </div>
+      </section>
+    </div>
+    <script src="style.js"></script>
+  </body>
+</html>
